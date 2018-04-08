@@ -28,7 +28,7 @@ plugins: [
 ```
 The above configuration will actually do nothing due to the configuration defaults.
 
-When you set `inlineSource` to a regular expression the source code for any javascript or css file names that match will be embedded inline in the resulting html document.
+When you set `cdnSource` to a regular expression the source code for any javascript or css file names that match will be embedded inline in the resulting html document.
 ```javascript
 plugins: [
   new HtmlWebpackPlugin({
